@@ -35,7 +35,7 @@
             handler.CookieContainer = cookies;
             handler.UseDefaultCredentials = true;
 
-            string loginCred = "{\"username\":\"darjit.dhillon@traveledge.com\",\"password\":\"Pass1234\",\"email-address\":\"\",\"password1\":\"\",\"password2\":\"\"}";
+            string loginCred = "{\"username\":\"abc.com\",\"password\":\"abcpasspord\",\"email-address\":\"\",\"password1\":\"\",\"password2\":\"\"}";
             //HttpContent content = new StringContent(loginCred);
             HttpContent content = new StringContent(loginCred, Encoding.Unicode, "application/json");
             using (var client = new HttpClient(handler))
